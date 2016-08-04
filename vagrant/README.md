@@ -9,7 +9,7 @@ vagrant up
 ### Start Jekyll
 
 ```
-vagrant ssh -c "jekyll server -s /srv/website --watch -P 8124 --host 0.0.0.0"
+vagrant ssh -c "jekyll server -s /srv/website --watch -P 8124 --host 0.0.0.0 --force_polling"
 ```
 
 ### Access generated sites
