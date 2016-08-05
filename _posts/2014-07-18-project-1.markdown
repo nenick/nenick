@@ -1,7 +1,7 @@
 ---
 layout: start
 modal-id: 1
-img: cabin.png
+img: cv.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
