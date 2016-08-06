@@ -4,17 +4,17 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.data.footer.location }}</h3>
+                        <h3>{{ page.footer.location }}</h3>
                         <p>
-                            {% for adress in site.data.address %}
+                            {% for adress in page.address %}
                                 {{ adress.line }} <br>
 		                    {% endfor %}
                         </p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.data.footer.social }}</h3>
+                        <h3>{{ page.footer.social }}</h3>
                         <ul class="list-inline">
-                            {% for network in site.data.social %}
+                            {% for network in page.social %}
                             <li>
                                 <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
                             </li>
@@ -22,8 +22,8 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>{{ site.data.footer.credits }}</h3>
-                        <p>{{ site.data.credits.message }}</p>
+                        <h3>{{ page.footer.credits }}</h3>
+                        <p>{{ page.credits }}</p>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+                        Copyright &copy; {{ page.footer.copyright }} 20{{ site.time | date: '%y' }}
                     </div>
                 </div>
             </div>
