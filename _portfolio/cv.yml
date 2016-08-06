@@ -1,0 +1,47 @@
+image: cv.png
+
+personal:
+  name: Nico Küchler
+  birth: 11.11.1984
+  hobbys: fishing, bikecycle, nature, sience and new technolegies
+
+language:
+  main: german
+  good: english
+
+work:
+  - job: Software Developer (focus Java, Android)
+    name: Deutsche Post - E-Post Development GmbH
+    url: https://www.epost.de/privatkunden/epost.html
+    from: 11/2012
+    until: 09/2016
+    tasks: E-POST App; E-POST Cloud App; Funcard App; android development (tech lead), team establishment and recruiting; continuous integration; gradle configuration; software architectur; testing and failure analysis; prototyping; code reviews; security; performance; backend development; oracle datenbase; partner api; rest services; java; scala; groovy; puppet; teamcity; scrum
+  - job: Software Developer (focus Java)
+    name: Sharis GmbH
+    url: http://www.sharis.de/
+    from: 11/2012
+    until: 09/2016
+    tasks: shop software; build infrastructure; requirements documentation; maven configurations for multiple mandants/environments; java; trac; maven; postgresql; spring; hibernate; testing; scrum
+  - job: Apprenticeship as Software Developer (focus C++, Java)
+    name: Bally Wulff Entertainment GmbH
+    url: https://www.ballywulff.de/
+    from: 09/2007
+    until: 07/2010
+    tasks: dual education system; tool development, build automation; project documentation; failure analyses for mathematical algorithms; c++; bash; qt; linux; uml; mysql; design patterns
+
+school:
+  - name: OSZ IMT Berlin (Apprenticeship)
+    from: September 2007
+    until: Juli 2010
+    gradiation: mathematical-technical software developer
+    education: mathematics (Numeric, statistic, analysis, ...), computer sience (algorithmen, data structures, software engineering, ...), ananyltical thinking, abstraction, ...
+  - name: German Navy
+    from: 2005
+    until: 2007
+    gradiation: Hauptgefreiter
+    education: Überwasseroperationsdienst (radar, radio, ...)
+  - name: OSZ Handel 1
+    from: 2001
+    until: 2005
+    gradiation: advanced technical college entrance qualification
+    education: commerce, econemy, chemistry, math, informatik, ...

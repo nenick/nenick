@@ -1,12 +1,4 @@
-<!-- Portfolio Modals -->
-<style>
-/* Only resize the element if PDF is embedded */
-.pdfobject-container {
-   height: 500px;
-}
-</style>
-{% for post in site.posts %}
-<div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1"
+<div class="portfolio-modal modal fade" id="portfolioModal-cv" tabindex="-1"
      role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -18,11 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <div id="my-pdf" class="modal-body">
-                        <script src='/vendor/pdfobject/pdfobject.min.js'></script>
-                        <script>
-            PDFObject.embed("/assets/nico-kuechler-cv.pdf", "#my-pdf");
-        </script>
+                    <div class="modal-body">
                         <h2>{{ post.title }}</h2>
                         <hr class="star-primary">
                         <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered"
@@ -52,5 +40,3 @@
         </div>
     </div>
 </div>
-{% endfor %}
-{% include portfolio/cv.html %}

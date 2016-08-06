@@ -1,0 +1,4 @@
+- modal-id: 10
+  image: cv.png
+  alt: Curriculum Vitae
+  content: portfolios/cv.html

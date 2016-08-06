@@ -1,5 +1,5 @@
 ---
-layout: start
+layout: default
 modal-id: 6
 img: submarine.png
 alt: image-alt
