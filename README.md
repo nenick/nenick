@@ -37,8 +37,16 @@ Import Xing profile at Lebenslauf.com and modify ...
 * Remove "Anschrift" which should not be public
 * Translate "gebohren am" -> Date of birth
 * Translate "Berufliche Laufbahn" -> Work Experience
-* Translate x "Juli" -> July
+* Translate "Juli" -> July
 * Translate "Akademische Laufbahn" -> Education
+* Translate "Juli" -> July
+* Translate "Abschluss" -> degree
+* Translate "Juli" -> July
 * Translate x "Abschluss" -> degree
 * Translate x "Abschluss" -> degree
+* Translate Sonstiges -> Others
+* Sprachen -> Languages
+* Deutsch: Muttersprache -> german: main language
+* Englisch: gut -> english: B2
+* Interessen -> Interests
 * Download as PDF and put into assets folder
